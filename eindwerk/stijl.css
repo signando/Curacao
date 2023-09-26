@@ -1,0 +1,790 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/white-bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: sans-serif, serif, Helvetica;
+}
+
+.container-BG {
+    background: linear-gradient(rgba(0, 107, 230, 0.5), rgba(230, 176, 0, 0.5));
+    padding-bottom: 1rem;
+}
+
+.header-container-100 {
+    width: 100%;
+    height: 20rem;
+    background-image: url(images/vlag.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;    
+}
+
+.container-inleiding {
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    background: linear-gradient(to right, rgba(250, 250, 250, 1), rgb(0, 0, 0));
+    padding-bottom: 1.5rem;
+}
+
+.container-inleiding p {
+    text-shadow: -1px 1px 5px rgba(251, 251, 252, 1);
+}
+
+.container-80 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo-container img {
+    width: 5rem;
+    float: left;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.main-nav-container {
+    float: right;
+}
+
+.main-nav-container ul {
+    list-style-type: none;
+}
+
+.main-nav-container ul li {
+    float: left;
+    margin: 0 1.1rem;
+    font-size: 1.4rem;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+.main-nav-container ul li:first-of-type {
+    margin-left: 0;
+}
+
+.main-nav-container ul li:last-of-type {
+    margin-right: 0;
+}
+
+.main-nav-container ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: -1px 1px 5px rgba(9, 5, 252, 0.9);
+}
+
+.main-nav-container ul li a:hover {
+    color: rgb(5, 5, 131);
+    font-size: 1.6rem;
+}
+
+.main-nav-container ul li span {
+    color: rgb(252, 252, 7);
+    text-shadow: -1px 1px 5px rgba(9, 5, 252, 0.9);
+}
+
+
+
+
+
+
+
+.kop-text {
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: -1px 1px 5px rgba(9, 5, 252, 0.9);
+    border-bottom: 3px solid rgb(248, 248, 4);
+    margin: 3rem 33%;
+    padding-bottom: 0.5rem;
+}
+
+.container-intro {
+    background: linear-gradient(rgba(0, 107, 230, 0.4), rgba(230, 176, 0, 0.4));
+    text-align: center;
+    line-height: 130%;
+    font-size: 130%;
+    background-color: rgb(252, 250, 250);
+    border-radius: 5px;
+    font-family: sans-serif, Arial, Helvetica;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+}
+
+.container-intro span {
+    font-weight: 600;
+    font-size: 120%;
+}
+
+.tweede-container-80 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.container-article-A {
+    float: left;
+    width: 68%;
+    background-color: rgba(221, 221, 224, 0.5);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.3rem;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+figure img {
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container-article-B {
+    float: right;
+    width: 25%;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+    margin-top: 0.4rem;
+    
+}
+
+.container-aside-A {
+    background-color: rgb(184, 184, 187);
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    
+    
+}
+
+.container-aside-B {
+    overflow: hidden;
+    background-color: rgb(252, 250, 250);
+    padding: 2rem 0rem;
+    border-bottom: 1px solid transparent;
+}
+
+.aside-A img {
+    width: 47%;
+    float: left;
+    margin-top: 5rem;
+}
+
+.aside-B img {
+    width: 47%;
+    float: right;
+}
+
+.container-aside-C iframe {
+    width: 100%;
+}
+
+.container-aside-D th {
+    background-color: rgba(221, 221, 224, 0.9);
+    padding: 0.5rem 0;
+    border-bottom: 2px solid transparent;
+}
+
+.container-aside-D .th-col {
+    background-color: rgb(184, 184, 187);
+}
+.container-aside-D td {
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.2rem;
+    color: rgb(87, 87, 88);
+    background-color: rgba(249, 249, 255, 0.9);
+    border-bottom: 2px solid transparent;
+}
+.container-aside-D .last {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+
+
+
+
+.derde-container-80 {
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    width: 100%;
+    height: 4rem;
+    padding-top: 1.5rem;
+    background: linear-gradient(to right, rgba(250, 250, 250, 1), rgb(0, 0, 0, 1));
+    text-align: center;
+}
+
+footer span {
+    color: rgb(87, 87, 88);
+}
+
+
+
+
+
+
+
+/* Pagina 2*/
+
+.tweede-container-80-pg2 {
+    width: 80%;
+    margin: auto;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+.hoofd-container-1A {
+    overflow: hidden;
+}
+
+.hoofd-container-flora {
+    background-color: rgba(221, 221, 224, 0.5);
+    width: 68%;
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.6rem;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-left: 3px solid black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.hoofd-container-stranden {
+    overflow: hidden;
+}
+
+.container-stranden {
+    float: left;
+    width: 33%;
+}
+
+.container-leeg-CF {
+    overflow: hidden;
+}
+
+.container-leeg {
+    width: 68%;
+    height: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    float: left;
+    background-color: rgba(221, 221, 224, 0.5);
+    border-left: 3px solid black;
+    border-right: 1px dotted black;
+}
+
+.kadushi-container {
+    width: 28%;
+    float: right;
+    background: linear-gradient(rgba(0, 107, 230, 0.9), rgba(230, 176, 0, 0.9));
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+}
+
+.kadushi-container img {
+    width: 100%;
+    margin: 0;   
+}
+
+.kadushi-container figcaption {
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+
+
+
+
+
+.container-fauna {
+    background-color: rgba(221, 221, 224, 0.5);
+    padding-top: 0.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.container-dieren {
+    overflow: hidden;
+}
+
+.dieren {
+    width: 33%;
+    float: left;
+}
+
+.dieren img {
+    margin: 0;
+    width: 100%;
+    height: 20rem;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+}
+
+.dieren figcaption {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.container-klimaat {
+    background-color: rgba(221, 221, 224, 0.5);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+}
+
+.container-klimaat h1 {
+    text-align: center;
+}
+
+.p-klimaat {
+    width: 80%;
+    margin: auto;
+    padding-left: 1rem;
+}
+
+.table-klimaat {
+    width: 80%;
+    margin: auto;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.table-klimaat caption {
+    margin-bottom: 0.5rem;
+}
+
+.table-klimaat th {
+    background-color: rgba(221, 221, 224, 0.9);
+    border-bottom: 1px solid black;
+}
+
+.table-klimaat td {
+    background-color: rgba(249, 249, 255, 0.9);
+    padding: 0.5rem;
+    color: rgb(87, 87, 88);
+}
+
+.table-klimaat .th-col {
+    background-color: rgb(184, 184, 187);
+}
+
+
+
+
+
+
+
+/* Pagina 3*/
+
+.tweede-container-80-pg3 {
+    
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.hoofd-article-geschiedenis-A {
+    background-color: rgba(221, 221, 224, 0.5);
+    width: 63%;
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+    padding-bottom: 2.5rem;
+}
+
+.main-container-landhuizen {
+    text-align: center;
+    margin-top: 3rem;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+    background-color: rgba(230, 176, 0, 0.9);
+}
+
+.container-landhuizen {
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 107, 230, 0.9), rgba(230, 176, 0, 0.9));
+}
+
+.landhuizen {
+    width: 30%;
+    float: left;
+    margin: 0 0.5rem;
+    text-align: center;
+}
+
+.landhuizen:first-of-type {
+    margin-left: 2rem;
+}
+
+.landhuizen img {
+    width: 100%;
+    height: 10rem;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+}
+
+.hoofd-article-geschiedenis-B {
+    width: 32%;
+    float: right;
+}
+
+.article-geschiedenis-B .img-frame {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    
+}
+
+.article-geschiedenis-B .img-frame .verleden {
+    width: 91%;
+    margin: 0;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+    box-shadow: -1px 1px 5px rgba(9, 5, 252, 0.9);  
+}
+
+.article-geschiedenis-B .img-frame figcaption {
+    text-align: center;
+    border-bottom: 3px solid rgb(252, 252, 7);
+    padding-bottom: 1.4rem;
+    padding-top: 0.5rem;
+}
+
+
+
+
+
+
+/*Pagina 4*/
+
+.tweede-container-80-pg4 {
+    width: 80%;
+    margin: auto;
+    padding-top: 0.1rem;
+    padding-bottom: 1rem;
+}
+
+.container-demografie {
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    background-color: rgba(221, 221, 224, 0.5); 
+}
+
+.h1-demografie {
+    text-align: center;
+    font-size: 150%;
+}
+
+.table-demografie {
+    font-size: 74%;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.table-demografie th {
+    background-color: rgba(221, 221, 224, 0.9);
+    padding: 0.5rem 0.25rem;
+}
+
+.table-demografie td {
+    background-color: rgba(249, 249, 255, 0.9);
+    color: rgb(87, 87, 88);   
+}
+
+.container-CF-taal-religie-table {
+    overflow: hidden;
+    margin-top: 3.5rem;
+}
+
+.container-taal-religie {
+    width: 55%;
+    float: left;
+}
+
+.container-taal-religie h2 {
+    font-size: 100%;
+    margin-top: 2.5rem;
+}
+
+.container-religie-table table {
+    width: 40%;
+    float: right;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container-religie-table th {
+    background-color: rgba(221, 221, 224, 0.9);
+    border-bottom: 1px solid black;
+    padding-bottom: 0.2rem;
+}
+
+.container-religie-table td {
+    background-color: rgba(249, 249, 255, 0.9);
+    color: rgb(87, 87, 88);
+}
+
+
+
+.container-politiek {
+    margin-top: 3rem;
+    padding: 1rem 1rem;
+    background-color: rgba(221, 221, 224, 0.5);
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+}
+
+.container-politiek h1 {
+    margin-top: 3rem;
+}
+
+.h1-politiek {
+    text-align: center;
+    font-size: 150%;
+}
+
+
+
+
+.container-CF-referendum {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container-CF-referendum caption {
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.container-CF-referendum table th {
+    background-color: rgba(221, 221, 224, 0.9);
+    border-bottom: 1px solid black;
+    padding-bottom: 0.2rem;
+}
+
+.container-CF-referendum table td {
+    background-color: rgba(249, 249, 255, 0.9);
+    color: rgb(87, 87, 88);   
+}
+
+.container-referendum-A table {
+    width: 45%;
+    float: left;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+}
+
+.container-referendum-B table {
+    width: 45%;
+    float: right;
+    margin-bottom: 1.5rem;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+}
+
+
+
+
+.container-economie {
+    margin-top: 3rem;
+    padding: 1rem 1rem;
+    background-color: rgba(221, 221, 224, 0.5);
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+}
+
+.h1-economie {
+    text-align: center;
+    font-size: 150%;
+}
+
+.container-defensie {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding: 1rem 1rem;
+    background-color: rgba(221, 221, 224, 0.5);
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;  
+}
+
+.h1-defensie {
+    text-align: center;
+    font-size: 150%;
+}
+
+
+
+
+
+
+/*Pagina 5*/
+
+.tweede-container-80-pg5 {
+    width: 80%;
+    margin: auto;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;   
+}
+
+.p-comentaar {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 130%;
+}
+
+.container-form {
+    width: 48%;
+    margin: auto;
+}
+
+.container-form form {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+    background: linear-gradient(rgba(0, 107, 230, 0.5), rgba(230, 176, 0, 0.5));
+}
+
+.container-form form span {
+    color: rgba(231, 15, 15, 0.7);
+}
+
+.container-form fieldset {
+    border-radius: 5px;
+    background: linear-gradient(rgba(0, 107, 230, 0.9), rgba(230, 176, 0, 0.9));   
+}
+
+.container-form label {
+    color: rgb(87, 87, 88);
+}
+
+.container-form input {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    
+}
+
+.container-form textarea {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+}
+
+.submit {
+    padding: 0.4rem 0.6rem;
+    background: linear-gradient(rgba(0, 107, 230, 0.5), rgba(230, 176, 0, 0.4));
+    border-top: 1px dotted black;
+    border-right: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 5px;
+    text-shadow: -1px 1px 5px rgba(9, 5, 252, 0.9);
+}
+
+.submit:hover {
+    background-color: rgba(0, 107, 230, 0.5);
+    color: bisque;
+}
+

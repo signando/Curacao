@@ -1,0 +1,372 @@
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+    background-color: black;
+}
+
+.sigmond {
+    width: 10em;
+    height: 8em;
+    margin: auto;
+    background-image: url(images/sigmond-verstegen-2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-left: 1.5em solid rgb(0, 0, 138);
+    border-right: 1.5em solid rgb(0, 0, 138);
+    box-shadow:inset 0 0 0.35em 0.35em yellow;
+    position: absolute;
+    top: 0;
+    left: 45%;
+    z-index: 1;
+}
+
+header {
+    display: grid;
+    grid-template-rows: auto auto;
+    position: relative;
+}
+
+.header-container-100 {
+    height: 25em;
+    margin-top: 8em;
+    background-image: url(images/vlag.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container-inleiding {
+    width: 100%;
+    order: -1;
+    border-bottom: 1em double black;
+    background: linear-gradient(to right, antiquewhite, transparent, antiquewhite);
+    position: fixed;
+    z-index: 100;
+}
+
+.container-80 {
+    border-bottom: 1em dotted black; 
+}
+
+.container-80-header {
+    width: 80%;
+    height: 6em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.logo-container {
+    width: 6.5em;
+    height: 4em;
+    border-left: 0.5em solid black;
+    border-bottom: 0.2em solid black;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0.2em 0.2em rgb(255, 192, 110), 0 0 0.7em 0.7em whitesmoke;
+    background-color: rgb(255, 212, 156);
+
+}
+.logo-container div {
+    width: 6em;
+    height: 4em;
+    background-image: url(images/logo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-left: 0.5em solid black;
+    border-bottom: 0.2em solid black;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0.2em 0.2em black, -0.2em 0 0.1em 0.1em black;
+    opacity: 0.8;   
+}
+
+.main-nav-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: end;
+}
+
+.main-nav-container div:nth-of-type(1) p {
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-shadow: 0.025em -0.025em 0.01em black;
+}
+.main-nav-container div:nth-of-type(2) ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(5, auto);   
+}
+.main-nav-container div:nth-of-type(2) ul li {
+    margin-right: 2.5em;
+}
+.main-nav-container div:nth-of-type(2) ul li:last-of-type {
+    margin-right: 0;
+}
+.main-nav-container div:nth-of-type(2) ul li a {
+    font-size: 1.5rem;
+    color: rgb(207, 207, 0);
+    text-decoration: none;
+    text-shadow: 0.05em -0.05em 0.01em black;  
+}
+.main-nav-container div:nth-of-type(2) ul li .current-page {
+    color: blue;
+    text-shadow: 0.05em -0.05em 0.01em whitesmoke;
+}
+.main-nav-container div:nth-of-type(2) ul li a:hover,
+.main-nav-container div:nth-of-type(2) ul li a:focus {
+    color: whitesmoke;
+    /*background-color: rgba(0, 0, 190, 0.5);
+    box-shadow: 0 0 0.5em 0.7em rgba(0, 0, 190, 0.5);
+    border-radius: 50px;*/
+    transition: 500ms ease;
+}
+.main-nav-container div:nth-of-type(2) ul li:hover,
+.main-nav-container div:nth-of-type(2) ul li:focus {
+    transform: rotateX(360deg);
+    transform-origin: initial;
+    transition: 500ms ease;   
+}
+
+
+
+
+
+
+
+
+
+
+
+.container-BG {
+    padding-top: 1em;
+    /*background: linear-gradient(to bottom, rgba(84, 178, 255, 0.7), rgba(255, 255, 92, 0.7), rgba(84, 178, 255, 0.7));*/
+    background-image: url(images/bg-cactus-zee.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.tweede-container-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.grid-article {
+    display: grid;
+    grid-template-columns: 65% auto;
+    align-items: start;
+    column-gap: 5%;
+}
+
+.container-kop-text {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+}
+.container-kop-text h1 {
+    width: 8em;
+    margin: auto;
+    margin-bottom: 3em;
+    padding-bottom: 0.15em;
+    font-size: 2.5rem;
+    color: transparent;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 138) 10%, yellow 10%, rgb(0, 0, 138) 17.5%);
+    background-position-y: -2em;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    letter-spacing: 0.25em;
+    text-shadow: -0.075em 0.075em 0.1em rgb(0, 0, 138);
+    border-bottom: 0.1em solid yellow;
+    border-left: 0.3em solid yellow;
+    transform: perspective(0.5em) rotateX(5deg);
+    border-radius: 50px;
+    border-bottom-right-radius: 50%;
+    box-shadow:inset 0.1em -0.05em 0.025em 0.025em rgb(0, 0, 138),
+    -0.5em 0.2em 0.1em 0.1em rgb(0, 0, 138);
+}
+.container-kop-text h1 span {
+    position: relative;
+}
+.container-kop-text h1 span::before {
+    content:" ";
+    width: 0.375em;
+    height: 0.375em;
+    position: absolute;
+    top: 0.125em;
+    left: -0.45em;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: whitesmoke;   
+}
+.container-kop-text h1 span::after {
+    content:" ";
+    width: 0.5em;
+    height: 0.5em;
+    position: absolute;
+    top: 0.25em;
+    left: -0.25em;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: whitesmoke;    
+}
+
+.container-article-A {
+    margin-bottom: 5em;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    background: linear-gradient(to bottom, rgba(84, 178, 255, 0.7), rgba(255, 255, 92, 0.7), rgba(84, 178, 255, 0.7));
+    border-left: 1em double black;
+    border-right: 0.15em dotted black;
+    border-top: 0.15em dotted black;
+    border-bottom: 0.5em double black;
+    border-top-right-radius: 10px;
+    box-shadow: -0.5em 0.15em 0.1em 0.1em black;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+.container-intro {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 3em;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    background: linear-gradient(to bottom, rgba(84, 178, 255, 0.7), rgba(255, 255, 92, 0.7), rgba(84, 178, 255, 0.7));
+    border-left: 1em double black;
+    border-right: 0.15em dotted black;
+    border-top: 0.15em dotted black;
+    border-bottom: 0.5em double black;
+    border-top-right-radius: 10px;
+    box-shadow: -0.25em 0.075em 0.01em 0.01em black;
+}
+.container-intro span {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.container-article-A aside {
+    margin-top: 3em;
+    height: 25em;
+    background-image: url(images/map.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-left: 1em double black;
+    border-right: 0.15em dotted black;
+    border-top: 0.15em dotted black;
+    border-bottom: 0.5em double black;
+    border-top-right-radius: 10px;
+    box-shadow: -0.25em 0.075em 0.01em 0.01em black;
+    opacity: 0.75;
+}
+
+.container-article-B {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: rgb(255, 253, 238);
+    border-left: 1em groove black;
+    border-right: 0.15em dotted black;
+    border-top: 0.15em dotted black;
+    border-bottom: 0.65em groove black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.container-aside-A {
+    width: 98%;
+    margin: auto;
+    margin-top: 0.15em;
+    padding-top: 0.1em;
+    padding-bottom: 1em;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(187, 187, 187);
+    border-top-right-radius: 10px;
+}
+
+.container-aside-B div {
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    background-color: rgb(255, 253, 238);
+}
+.container-aside-B .aside-A {
+    width: 90%;
+    height: 6em;
+    background-image: url(images/vlag2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-self: end;
+    border-radius: 10px;      
+}
+.container-aside-B .aside-B {
+    width: 80%;
+    height: 15em;
+    background-image: url(images/schild.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    justify-self: center;   
+}
+.container-aside-C {
+    width: 98%;
+    margin: auto;
+}
+.container-aside-C iframe {
+    width: 100%;  
+}
+.container-aside-D {
+    width: 98%;
+    margin: auto;
+}
+.container-aside-D table {
+    margin-bottom: 0.25em;
+    border: 0.2em solid black;  
+}
+.container-aside-D table th {
+    padding-top: 0.485em;
+    padding-bottom: 0.485em;
+    border: 0.15em solid black;
+    background-color: rgb(197, 197, 197, 0.7);   
+}
+.container-aside-D table .th-col {
+    background-color: rgb(165, 165, 165, 0.7);
+}
+
+.container-aside-D table td {
+    border: 0.1em solid black;
+    padding-left: 0.25em;
+    background-color: rgb(226, 226, 226, 0.7);   
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 6em;
+    border-top: 1em double black;
+    background: linear-gradient(to right, antiquewhite, black, antiquewhite);
+}
+footer p {
+    margin-top: 2.5em;
+    color: whitesmoke;
+    text-align: center;
+}
+footer p span {
+    color: rgb(255, 201, 131);
+}
+footer p .wiki {
+    display: block;
+    color: rgba(255, 201, 131, 0.75);
+}

@@ -1,0 +1,195 @@
+
+.container-BG {
+    padding-top: 1em;
+    padding-bottom: 5em;
+    background-image: url(images/bg-pagina-2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.tweede-container-80-pg2 {
+    width: 80%;
+    margin: auto;
+}
+
+.main-grid-cont {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+
+.container-kop-text h1 {
+    width: 7em;
+}
+
+.hoofd-container-1A {
+    display: grid;
+    grid-template-columns: auto 30%;
+    background: linear-gradient(to bottom, rgba(84, 178, 255, 0.7), rgba(255, 255, 92, 0.7), rgba(84, 178, 255, 0.7));
+    border-left: 1em double black;
+    border-right: 0.15em dotted black;
+    border-top: 0.15em dotted black;
+    border-bottom: 0.5em double black;
+    border-top-right-radius: 10px;
+    box-shadow: -0.5em 0.15em 0.1em 0.1em black;
+}
+
+.hoofd-container-flora {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 1%;
+    padding-right: 1%;
+    grid-column: 1 / 2;
+}
+.kadushi-container {
+    width: 100%;
+    grid-column: 2 / 3;
+    background-color: black;
+    border-top-right-radius: 10px;
+}
+.kadushi-container div {
+    width: 85%;
+    height: 30em;
+    margin: auto;
+    margin-top: 2em;
+    background-image: url(images/kadushi.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    box-shadow:inset 0 0 2em 2em whitesmoke;
+    border: 0.5em double whitesmoke; 
+}
+.kadushi-container p {
+    width: 88.75%;
+    margin: auto;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 0.75em;
+    padding-top: 1em;
+    border-top: 0.375em double whitesmoke;
+}
+
+.hoofd-container-stranden {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.container-leeg-CF {
+    height: 25em;
+    margin-top: 7em;
+    margin-bottom: 7em;
+    border-left: 1em double antiquewhite;
+    border-right: 0.15em dotted antiquewhite;
+    border-top: 0.15em dotted antiquewhite;
+    border-bottom: 0.5em double antiquewhite;
+    border-top-right-radius: 10px;
+    box-shadow: -0.5em 0.15em 0.1em 0.1em whitesmoke;
+    background-color: black
+}
+.container-leeg-CF div {
+    width: 85%;
+    height: 20em;
+    margin: auto;
+    margin-top: 1.5em;
+    background-image: url(images/tussen-landscape.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    box-shadow:inset 0 0 2em 2em whitesmoke;
+    border: 0.75em double whitesmoke;   
+}
+
+.container-fauna {
+    margin-bottom: 7em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: linear-gradient(to bottom, rgba(84, 178, 255, 0.7), rgba(255, 255, 92, 0.7), rgba(84, 178, 255, 0.7));
+    border-left: 1em double black;
+    border-right: 0.15em dotted black;
+    border-top: 0.15em dotted black;
+    border-bottom: 0.5em double black;
+    border-top-right-radius: 10px;
+    box-shadow: -0.5em 0.15em 0.1em 0.1em black;
+}
+
+.container-dieren {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+}
+.container-dieren .dieren {
+    height: 27.5em;
+    border-left: 1em double antiquewhite;
+    border-right: 0.15em dotted antiquewhite;
+    border-top: 0.15em dotted antiquewhite;
+    border-bottom: 0.5em double antiquewhite;
+    border-top-right-radius: 10px;
+    box-shadow: -0.5em 0.15em 0.1em 0.1em whitesmoke;
+    background-color: black   
+}
+.container-dieren .dieren div {
+    width: 85%;
+    height: 20em;
+    margin: auto;
+    margin-top: 2em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top-right-radius: 10px;
+    box-shadow:inset 0 0 2em 2em whitesmoke;
+    border: 0.5em double whitesmoke;
+}
+.container-dieren .dieren P {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-align: center;
+}
+.container-dieren .A div {
+    background-image: url(images/ezel.jpg);
+}
+.container-dieren .B div {
+    background-image: url(images/bok.jpg);  
+}
+.container-dieren .C div {
+    background-image: url(images/leguaan.jpg);   
+}
+
+.container-klimaat {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: linear-gradient(to bottom, rgba(84, 178, 255, 0.7), rgba(255, 255, 92, 0.7), rgba(84, 178, 255, 0.7));
+    border-left: 1em double black;
+    border-right: 0.15em dotted black;
+    border-top: 0.15em dotted black;
+    border-bottom: 0.5em double black;
+    border-top-right-radius: 10px;
+    box-shadow: -0.5em 0.15em 0.1em 0.1em black;    
+}
+
+.container-klimaat table {
+    margin: auto;
+    margin-top: 3em;
+    border: 0.2em solid black;  
+}
+.container-klimaat table th {
+    padding-top: 0.485em;
+    padding-bottom: 0.485em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 0.15em solid black;
+    background-color: rgb(197, 197, 197, 0.7);   
+}
+.container-klimaat table .th-col {
+    background-color: rgb(165, 165, 165, 0.7);
+}
+
+.container-klimaat table td {
+    text-align: center;
+    border: 0.1em solid black;
+    background-color: rgb(226, 226, 226, 0.7);   
+}

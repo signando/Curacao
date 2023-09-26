@@ -1,0 +1,235 @@
+
+.container-BG {
+    background-image: url(images/bg-punda.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.tweede-container-80-pg3 {
+    width: 80%;
+    margin: auto;
+}
+
+.hoofd-article-geschiedenis {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+}
+
+.container-kop-text h1 {
+    width: 11em;
+    order: 0;
+}
+
+.hoofd-article-geschiedenis-B {
+    order: 1;
+    margin-bottom: 7em;
+    background: linear-gradient(to bottom, rgba(84, 178, 255, 0.7), rgba(255, 255, 92, 0.7), rgba(84, 178, 255, 0.7));
+    border-left: 1em double black;
+    border-right: 0.15em dotted black;
+    border-top: 0.15em dotted black;
+    border-bottom: 0.5em double black;
+    border-top-right-radius: 10px;
+    box-shadow: -0.5em 0.15em 0.1em 0.1em black;
+}
+.article-geschiedenis-B {
+    padding-top: 3em;
+    padding-bottom: 5em;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    row-gap: 2em;
+}
+.article-geschiedenis-B .past {
+    height: 27.5em;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow:inset 0 0 0.5em 0.5em whitesmoke;
+}
+.article-geschiedenis-B .past-D {
+    border-top-right-radius: 10px;
+}
+.article-geschiedenis-B .past-F {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+.article-geschiedenis-B .past div {
+    width: 85%;
+    height: 20em;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 0.5em double black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+}
+.article-geschiedenis-B .past-A div {
+    background-image: url(images/rotstekening.JPG);   
+}
+.article-geschiedenis-B .past-B div {
+    background-image: url(images/ojeda-alonso.jpg);   
+}
+.article-geschiedenis-B .past-C div {
+    background-image: url(images/heren-xix.jpg);   
+}
+.article-geschiedenis-B .past-D div {
+    background-image: url(images/wic.jpg);
+    border-top-right-radius: 15px;   
+}
+.article-geschiedenis-B .past-E div {
+    background-image: url(images/mei-30.jpg);   
+}
+.article-geschiedenis-B .past-F div {
+    background-image: url(images/tula.jpg);  
+}
+.article-geschiedenis-B .past-G div {
+    background-image: url(images/isla.jpg);    
+}
+.article-geschiedenis-B .past p {
+    width: 90%;
+    margin: auto;
+    margin-top: 0.5em;
+    padding-top: 0.75em;
+    font-size: 1.1rem;
+    text-align: center;
+    color: whitesmoke;
+    border-top: 0.5em double black;
+}
+.article-geschiedenis-B .past-F p {
+    width: 87.5%;
+}
+
+.hoofd-article-geschiedenis-A {
+    order: 2;
+    margin-bottom: 7em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: linear-gradient(to bottom, rgba(84, 178, 255, 0.7), rgba(255, 255, 92, 0.7), rgba(84, 178, 255, 0.7));
+    border-left: 1em double black;
+    border-right: 0.15em dotted black;
+    border-top: 0.15em dotted black;
+    border-bottom: 0.5em double black;
+    border-top-right-radius: 10px;
+    box-shadow: -0.5em 0.15em 0.1em 0.1em black;
+}
+
+.main-container-landhuizen {
+    order: 3;
+    margin-bottom: 5em;
+    padding-bottom: 5em;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(84, 178, 255, 0.7), rgba(255, 255, 92, 0.7), rgba(84, 178, 255, 0.7));
+    border-left: 1em double black;
+    border-right: 0.15em dotted black;
+    border-top: 0.15em dotted black;
+    border-bottom: 0.5em double black;
+    border-top-right-radius: 10px;
+    box-shadow: -0.5em 0.15em 0.1em 0.1em black;
+}
+.main-container-landhuizen h1 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-size: 1.75rem;
+    color: yellow;
+    text-shadow: -0.2em 0.2em 0.1em black;
+}
+.container-landhuizen {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;   
+}
+.landhuis {
+    width: 100%;
+    height: 20em;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.landhuis p {
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5em;
+    padding-bottom: 0.25em;
+    font-size: 1.25rem;
+    text-align: center;
+    color: whitesmoke;
+    border-bottom: 0.25em dotted yellow;
+    transform: perspective(0.5em) rotateX(2.5deg);
+    text-shadow: -0.2em 0.2em 0.1em black;
+    box-shadow: 0 0.1em 0.05em 0.05em black;;
+}
+.landhuis div {
+    width: 85%;
+    height: 10em;
+    margin: auto;
+    margin-top: 2em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top: 0.25em dashed whitesmoke;
+    border-bottom: 0.35em dashed whitesmoke;
+    border-left: 0.3em solid whitesmoke;
+    border-right: 0.3em solid whitesmoke;
+    border-radius: 10px;
+    box-shadow:inset 0 0 1.5em 1.5em whitesmoke;   
+}
+.landhuis-A div {
+    background-image: url(images/lh-ascension.jpg);
+}
+.landhuis-B div {
+    background-image: url(images/lh-brievengat.jpeg);
+}
+.landhuis-C div {
+    background-image: url(images/lh-chobolobo.jpg);
+}
+.landhuis-D div {
+    background-image: url(images/lh-daniel.png);
+}
+.landhuis-E div {
+    background-image: url(images/lh-dokters-tuin.jpg);
+}
+.landhuis-F div {
+    background-image: url(images/lh-habaai.jpg);
+}
+.landhuis-G div {
+    background-image: url(images/lh-jan-kok.jpg);
+}
+.landhuis-H div {
+    background-image: url(images/lh-knip.jpg);
+}
+.landhuis-I div {
+    background-image: url(images/lh-santa-martha.jpg);
+}
+.koning {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-top-right-radius: 10px;
+}
+.koning div {
+    width: 85%;
+    height: 50em;
+    margin: auto;
+    margin-top: 2em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(images/koning.jpg);
+    border-radius: 10px;
+    box-shadow:inset 0 0 5em 5em whitesmoke,
+    -0.5em 0.5em 0.25em 0.25em black;   
+}
+.koning p {
+    width: 85%;
+    margin: auto;
+    margin-top: 1em;
+    padding-bottom: 0.25em;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+    color: whitesmoke;
+    border-bottom: 0.25em double yellow;
+    text-shadow: -0.2em 0.2em 0.1em black;
+}
